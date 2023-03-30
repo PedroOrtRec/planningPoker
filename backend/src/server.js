@@ -1,5 +1,7 @@
 const fastify = require('fastify')({
-    logger: true
+    logger: {
+        level: "trace",
+    }
 });
 
 const indexRoutes = require('./routes/index')
