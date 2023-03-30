@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "description": "bardoor backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "fastify": "^4.15.0"
+  }
+}
